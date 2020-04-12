@@ -1,0 +1,10 @@
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
+/* .resources__logo:has(img) {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+} */

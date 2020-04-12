@@ -1,0 +1,14 @@
+.footer__social-icon {
+  text-decoration: none;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  color: #4f4f4f;
+  line-height: 30px;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+}
+
+.footer__social-icon:hover {
+  color: #2f80ed;
+}

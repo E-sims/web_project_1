@@ -1,0 +1,9 @@
+@import url(./__iframe/video__iframe.css);
+
+.video {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 1050px;
+  margin: 0 auto;
+}
