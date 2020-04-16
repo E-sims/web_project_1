@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <!-- <link rel="stylesheet" href="./styles/style.css" /> -->
     <title>Learning how to learn</title>
@@ -141,24 +140,24 @@
           <p class="section-subtitle section-subtitle_theme_light">
             For lovers of procrastination
           </p>
-          <div class="video__iframe">
-            <iframe
-              width="515"
-              height="289.6875"
+          <ul class="video__iframes">
+            <li class="video__iframe">
+              <iframe
+              class="video__iframe"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
-            <iframe
-              width="515"
-              height="289.6875"
+              ></iframe>
+            </li>
+            <li class="video__iframe">
+              <iframe
+              class="video__iframe"
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
+            </li>            
+          </ul>
         </section>
         <!-- start of oakley section -->
         <section class="oakley">
@@ -259,15 +258,15 @@
         <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Salman Khan</p>
-            <p class="khan__title">The One World Schoolhouse</p>
-            <p class="khan__quote">
+            <h3 class="khan__title">The One World Schoolhouse</h3>
+            <blockquote class="khan__quote">
               Sal Khan's passion and innovation is transforming learning for
               millions of students worldwide. The One World Schoolhouse is a
               must-read for all who are committed to improving education so
               students everywhere can gain the skills and knowledge to be
               successful in school, careers and life.
-            </p>
-            <p class="khan__quote-author">George Lucas</p>
+            </blockquote>
+            <h3 class="khan__quote-author">George Lucas</h3>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
               <div class="khan__book-pic"></div>
@@ -361,7 +360,6 @@
                 class="resources__logo"
                 src="./images/logo/resources-tedED.png"
                 alt="Ted Ed photo"
-                srcset=""
               />
             </li>
             <li class="resources__logo">
@@ -369,7 +367,6 @@
                 class="resources__logo"
                 src="./images/logo/resources-Medium.png"
                 alt="Medium photo"
-                srcset=""
               />
             </li>
             <li class="resources__logo">
@@ -377,7 +374,6 @@
                 class="resources__logo"
                 src="./images/logo/resources-dezeen.png"
                 alt="dezeen photo"
-                srcset=""
               />
             </li>
             <li class="resources__logo">
@@ -385,7 +381,6 @@
                 class="resources__logo"
                 src="./images/logo/resources-goodreads.png"
                 alt="goodreads photo"
-                srcset=""
               />
             </li>
           </ul>

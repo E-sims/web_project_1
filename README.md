@@ -15,11 +15,12 @@ Building out an single page website using standard and modern web practices whil
 - HTML5
 
 ```
-Version 1.1
+Version 1.2
 ```
 
 ## Author
 
+- **Eric Sims**
+
 Plans for finalizing this project includes adding responsiveness.
 
-- **Eric Sims**
